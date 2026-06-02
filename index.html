@@ -57,16 +57,17 @@
     }
 
     .top {
-      padding: 24px 24px 12px;
+      padding: 32px 32px 18px;
       text-align: center;
       background: var(--card);
     }
 
-    .logo {
-      max-width: 300px;
-      max-height: 90px;
-      width: auto;
+    .real-logo {
+      display: block;
+      width: min(100%, 430px);
       height: auto;
+      margin: 0 auto 6px;
+      object-fit: contain;
     }
 
     .title-bar {
@@ -350,16 +351,11 @@
   <div class="app">
     <div class="card">
       <div class="top">
-      <header class="top">
- .real-logo {
-  display: block;
-  max-width: 320px;
-  width: 100%;
-  max-height: 72px;
-  height: auto;
-  margin: 0 auto 6px;
-  object-fit: contain;
-}
+        <img
+          src="./AH Full Logo - RGB Bronze.png"
+          alt="Aphrodite Hills logo"
+          class="real-logo"
+        />
       </div>
 
       <div class="title-bar">Junior Tennis Membership Registration Form 2026</div>
